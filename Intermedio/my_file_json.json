@@ -1,0 +1,11 @@
+{
+    "Nombre": "Christian",
+    "Apellido": "Arguello",
+    "Edad": 25,
+    "Lenguajes": [
+        "Python",
+        "Kotlin",
+        "Swift"
+    ],
+    "Web": "https://google.com/"
+}
