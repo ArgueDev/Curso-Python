@@ -2,11 +2,10 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-@app.get("/")
+@app.get('/')
 async def root():
-    return "Hola FastAPI!"
-
+    return 'Hola FastAPI!'
 
 @app.get('/url')
 async def root():
-    return {'url_curso': 'https://mouredev.com/python'}
+    return {'url_curso': 'https://mycourse.com'}
